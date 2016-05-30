@@ -47,7 +47,7 @@ public class Pilha {
 
     public boolean isFull(){
         if(topo==10){
-            System.out.println("Pilha cheia.");
+            System.out.println("PilhaEncadeada cheia.");
             return false;
         }return true;
     }

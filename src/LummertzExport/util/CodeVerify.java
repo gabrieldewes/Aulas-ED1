@@ -5,33 +5,36 @@ package LummertzExport.util;
  */
 public class CodeVerify {
 
-    public boolean verify (String code) {
+    public static boolean verify (String code) {
         /* 2 letras, 4 números */
-        for (int i=0; i<code.length(); i++) {
-            if (i < 3) {
-                if (isNumber(code.charAt(i))) {
+        if (code.length() == 6) {
+            return false;
+            /*for (int i = 0; i < code.length(); i++) {
+                if (i < 3) {
+                    if (isNumber(code.charAt(i))) {
+                        return true;
+                    } else {
 
+                    }
                 } else {
+                    if (isDigit(code.charAt(i))) {
+                        return true;
+                    } else {
 
+                    }
                 }
-            } else {
-                if (isDigit(code.charAt(i))) {
-
-                } else {
-
-                }
-            }
+            }*/
         }
-        return false;
+        return true;
     }
 
-    public boolean isNumber (char c) {
+    private static boolean isNumber (char c) {
 
-        return false;
+        return true;
     }
 
-    public boolean isDigit (char c) {
+    private static boolean isDigit (char c) {
 
-        return false;
+        return true;
     }
 }

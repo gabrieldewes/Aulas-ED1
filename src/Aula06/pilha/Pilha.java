@@ -14,7 +14,7 @@ public class Pilha {
         this.topo=-1;
         this.base=-1;
         this.isInit=true;
-        System.out.println("Pilha inicializada");
+        System.out.println("PilhaEncadeada inicializada");
         return true;
     }
 
@@ -28,7 +28,7 @@ public class Pilha {
     public boolean push(int a){
 
         if (isFull()) {
-            System.out.println("Pilha Cheia Windows Me");
+            System.out.println("PilhaEncadeada Cheia Windows Me");
             return false;
         }
         else {
@@ -39,7 +39,7 @@ public class Pilha {
                 return true;
             }
             else {
-                System.out.println("Pilha nao inicializada");
+                System.out.println("PilhaEncadeada nao inicializada");
                 return false;
             }
         }
@@ -48,7 +48,7 @@ public class Pilha {
     public boolean pop(){
 
         if (isEmpty()){
-            System.out.println("Pilha vazia Windows Me");
+            System.out.println("PilhaEncadeada vazia Windows Me");
             return false;
         }else{
             System.out.println(this.vet[this.topo] +" removido");
@@ -60,7 +60,7 @@ public class Pilha {
     public boolean pull(int b){
 
         if(isEmpty()){
-            System.out.println("Pilha vazia Windows Me");
+            System.out.println("PilhaEncadeada vazia Windows Me");
             return false;
         }else{
             this.vet[this.topo]=b;
