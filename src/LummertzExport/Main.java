@@ -29,7 +29,7 @@ public class Main extends MainControl {
         Period period   = new Period(start, end);
         System.out.println("Entre as duas datas há: " + period.getDays() + " dias,  "
                 + period.getHours() + " horas "
-                + period.getMinutes() + " minutos.");
+                + period.getMinutes() + " minutos. ");
     }
 
 }
