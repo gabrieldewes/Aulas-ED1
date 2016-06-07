@@ -1,4 +1,4 @@
-package LummertzExport.model;
+package Aula14.model;
 
 /**
  * Created by gabriel on 16/05/16.
