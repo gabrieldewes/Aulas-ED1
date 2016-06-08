@@ -1,4 +1,4 @@
-package Aula14.model;
+package Aula15.model;
 
 /**
  * Created by gabriel on 16/05/16.
