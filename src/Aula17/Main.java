@@ -19,7 +19,7 @@ public class Main {
 
 		de.imprimir();
 		
-		if (de.remover(3))
+		if (de.remover(2))
 			System.out.println("saiu! ");
 
 		de.imprimir();
